@@ -1,5 +1,10 @@
 class Solution {
 public:
+    /* 3 step algo
+     1.find smallest and second smallest index
+     2.swap
+     3.reverse
+     */
     void nextPermutation(vector<int>& a) {
         int n=a.size(),in1,in2;
         
